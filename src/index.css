@@ -1,17 +1,24 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'CY Grotesk Wide'; 
+  src: url('./assets/fonts/CyGrotesk-WideRegular.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 @theme {
   /* --- Tipografías --- */
-  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "CY Grotesk Wide", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "DM Serif Display", ui-serif, Georgia, serif;
 
   /* --- Colores de Marca --- */
-  --color-brand-dark: #111111;       /* Texto general */
-  --color-brand-blue: #2c4c5c;       /* Botones, iconos */
-  --color-brand-lilac: #e3d9e0;      /* Nube, blobs */
-  --color-brand-turquoise: #8fa39d;  /* Blobs, cards */
-  --color-brand-orange: #d8b1a2;     /* Blob naranja */
-  --color-brand-rose: #d69c94;       /* Cards rojizas */
-  --color-brand-beige: #f1dfb6;      /* Cards beige */
-  --color-brand-lightblue: #d6e8f7;  /* Cards celeste */
+  --color-brand-dark: #111111;
+  --color-brand-blue: #2c4c5c;
+  --color-brand-lilac: #e3d9e0;
+  --color-brand-turquoise: #8fa39d;
+  --color-brand-orange: #d8b1a2;
+  --color-brand-rose: #d69c94;
+  --color-brand-beige: #f1dfb6;
+  --color-brand-lightblue: #d6e8f7;
 }
