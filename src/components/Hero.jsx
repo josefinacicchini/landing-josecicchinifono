@@ -4,21 +4,19 @@ import blobHero from '../assets/blob-hero.png'
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[calc(100vh-92px)] min-h-[600px] flex items-center justify-center bg-white overflow-visible">
+    <section className="relative w-full h-auto md:h-[calc(100vh-92px)] min-h-[600px] flex items-center justify-center bg-white py-12 md:py-0 overflow-hidden md:overflow-visible">
       
       <div className="w-full max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-12 md:gap-32">
         
         {/* COLUMNA FOTO */}
-        <div className="relative flex-1 flex justify-center items-end">
+        <div className="relative flex-1 flex justify-center items-end order-1 md:order-none">
           
-          {/* NUBE */}
           <img 
             src={blobHero} 
             alt="" 
             className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[130%] md:w-[600px] max-w-none z-0 opacity-90 pointer-events-none"
           />
           
-          {/*FOTO PERFIL */}
           <div className="relative z-10 w-48 h-56 md:w-80 md:h-96 overflow-visible rounded-[60px_60px_0_0] md:rounded-[100px_100px_0_0]">
             <img 
               src={perfilImg} 
@@ -30,7 +28,7 @@ export default function Hero() {
         </div>
 
         {/* COLUMNA TEXTO */}
-        <div className="relative z-10 flex-1 text-center md:text-left space-y-4 md:space-y-6">
+        <div className="relative z-10 flex-1 text-center md:text-left space-y-4 md:space-y-6 order-2 md:order-none pb-4 md:pb-0">
           <div>
             <h1 className="font-serif text-4xl md:text-7xl text-brand-dark mb-2 md:mb-4">
               Josefina Cicchini
