@@ -25,6 +25,7 @@ export default function Contact() {
                         <div className="w-full h-[300px] md:h-[350px] rounded-3xl overflow-hidden shadow-sm bg-gray-100">
                             <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5647299910147!2d-58.45607712434235!3d-34.56457457296844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5b80d816585%3A0xe84bc7908fe646f1!2sFonoaudi%C3%B3loga%20Josefina%20Cicchini!5e0!3m2!1ses-419!2sar!4v1768248297782!5m2!1ses-419!2sar" 
+                                title="Ubicación del consultorio en Belgrano, CABA"
                                 className="w-full h-full object-cover transition-all duration-500"
                                 style={{ border: 0 }} 
                                 allowFullScreen 

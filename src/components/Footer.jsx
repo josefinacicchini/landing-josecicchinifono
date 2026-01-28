@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
         <footer className="w-full text-center pt-6 pb-2">
-            <p className="text-[10px] md:text-xs font-sans text-gray-400 tracking-wide leading-relaxed">
+            <p className="text-[10px] md:text-xs font-sans text-gray-500 tracking-wide leading-relaxed">
                 © {currentYear} Josefina Cicchini. Todos los derechos reservados.
                 
                 <span className="hidden md:inline mx-2">|</span>

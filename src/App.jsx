@@ -12,10 +12,12 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Contact />
+      <main id="main-content">
+        <Hero />
+        <About />
+        <Services />
+        <Contact />
+      </main>
     </div>
   )
 }
