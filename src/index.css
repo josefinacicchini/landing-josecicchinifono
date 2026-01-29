@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'CY Grotesk Wide'; 
-  src: url('./assets/fonts/CyGrotesk-WideRegular.otf') format('opentype'); 
+  src: url('./assets/fonts/CyGrotesk-WideRegular.woff2') format('woff2'); 
   font-weight: normal;
   font-style: normal;
   font-display: swap;
