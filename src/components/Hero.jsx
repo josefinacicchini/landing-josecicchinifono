@@ -17,12 +17,13 @@ export default function Hero() {
             className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[130%] md:w-[600px] max-w-none z-0 opacity-90 pointer-events-none"
           />
           
-          <div className="relative z-10 w-48 h-56 md:w-80 md:h-96 overflow-visible rounded-[60px_60px_0_0] md:rounded-[100px_100px_0_0] fetchpriority=high">
+          <div className="relative z-10 w-48 h-56 md:w-80 md:h-96 overflow-visible rounded-[60px_60px_0_0] md:rounded-[100px_100px_0_0]">
             <img 
               src={perfilImg} 
               alt="Imagen de perfil Josefina"
               className="w-full h-full object-cover"
               onError={(e) => e.target.style.display = 'none'} 
+              fetchpriority="high"
             />
           </div>
         </div>
