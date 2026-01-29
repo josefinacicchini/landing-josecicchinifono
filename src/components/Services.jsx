@@ -1,5 +1,5 @@
 import React from 'react';
-import consultorio from '../assets/consultorio.png';
+import consultorio from '../assets/consultorio.webp';
 
 const overlayClasses = "absolute inset-0 bg-brand-blue/95 p-5 md:p-6 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20 rounded-3xl overflow-y-auto";
 const textClasses = "text-white text-sm md:text-base font-medium leading-snug md:leading-relaxed font-sans";

@@ -1,6 +1,6 @@
 // src/components/About.jsx
-import fotoTerapia1 from '../assets/foto-terapia1.jpg'
-import fotoTerapia2 from '../assets/foto-terapia2.png'
+import fotoTerapia1 from '../assets/foto-terapia1.webp'
+import fotoTerapia2 from '../assets/foto-terapia2.webp'
 import blobVerde from '../assets/blob-verde.png'
 import blobGris from '../assets/blob-gris.png'
 
