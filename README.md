@@ -8,7 +8,7 @@ Este proyecto es una **Single Page Application (SPA)** desarrollada para present
 
 ## Producción
 
-[link]https://josecicchinifono.com.ar
+https://josecicchinifono.com.ar
 
 ## Stack Técnico
 
