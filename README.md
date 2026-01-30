@@ -6,14 +6,20 @@ Este proyecto es una **Single Page Application (SPA)** desarrollada para present
 
 > **Nota:** Este proyecto combina mis dos ocupaciones: la Fonoaudiología y el Desarrollo de Software.
 
-## Tecnologías y Stack Técnico
+## Producción
 
-El proyecto fue construido con:
+[link](https://josecicchinifono.com.ar
 
-* **React**
-* **Vite**
-* **Tailwind CSS**
-* **JavaScript (ES6+)**
+## Stack Técnico
+
+* **Frontend:** React, Vite, Tailwind CSS.
+* **Infraestructura:** Despliegue en Vercel con gestión de DNS en Cloudflare.
+
+## Optimizaciones
+
+* **SEO:** Estructura semántica y metadatos.
+* **Rendimiento:** Optimización de assets y carga.
+* **Accesibilidad:** Estándares de contraste y navegación.
 
 ## 📂 Estructura del Proyecto
 
